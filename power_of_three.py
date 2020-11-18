@@ -2,7 +2,7 @@
 # https://leetcode.com/problems/power-of-three/
 
 class Solution:
-	# O(n) time, O(n) space (recursion stack)
+	# O(log_3(n)) time, O(log_3(n)) space (recursion stack)
 	def isPowerOfThree(self, n: int) -> bool:
 		if n == 0: return False
 		if n == 1: return True
@@ -11,7 +11,7 @@ class Solution:
 		return False
 
 	'''
-	# O(n) time, O(1) space
+	# O(log_3(n)) time, O(1) space
 	def isPowerOfThree(self, n):
 		if n == 0: return False
 		while(n % 3):
