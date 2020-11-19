@@ -2,7 +2,7 @@
 # https://leetcode.com/problems/first-unique-character-in-a-string/
 
 class Solution:
-	# O(n) time, O(n) space
+	# O(n) time, O(1) space (there's only 26 letters)
 	def firstUniqChar(self, s: str) -> int:
 		char_index_repeated = {}
 		for i in range(len(s)):
