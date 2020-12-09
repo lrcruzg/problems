@@ -12,6 +12,5 @@ class Solution:
 			if counter == 0 or counter == numRows - 1:
 				move *= -1
 			rows[counter] += s[i]
-			print(counter)
 			counter += move
 		return "".join(rows)
