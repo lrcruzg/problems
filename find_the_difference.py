@@ -2,8 +2,8 @@
 # https://leetcode.com/problems/find-the-difference/
 
 class Solution:
-	# O(n) time.
-	# O(1) space.
+    # O(n) time.
+    # O(1) space.
     def findTheDifference(self, s: str, t: str) -> str:
         ans = 0
         for c in s:
